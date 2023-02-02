@@ -15,6 +15,11 @@ public class Person {
         this.phone = phone;
     }
 
+    public void changeName(String newName){
+        name = newName;
+    }
+
+
     //Return true if two people have the same name
     public boolean compareNames(Person otherPerson) {
         if (name.equals(otherPerson.name))
